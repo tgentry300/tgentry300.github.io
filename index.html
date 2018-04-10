@@ -1,31 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Taylor's Biography</title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <title>Taylor's Biography</title>
     <style>
         body {
-            background-image: url("reds_photo.jpg");
+            background-color: wheat;
             background-position: center;
             background-size: cover;
-            color:burlywood;
+            color: red
+        }
+
+        hr {
+            border-color: red
+        }
+
+        #FunFacts {
+            font-size: 50px
+        }
+
+        #list1 {
+            font-size: 20px
+        }
+
+        figcaption {
+            font-size: 50px
         }
     </style>
-    <body> 
-      <h1>The Biography of Taylor Gentry</h1>
-    <a href="https://www.facebook.com/tayboy266" alt="My Facebook Page"><img src="IMG_1770.JPG" width="400" height="400"></a>
-      <h2>Early life</h2>
-        <p>I was born in Anderson, Indiana on November 3rd in the year one thousand nine hundred ninety three. 
-          I was raised on the north side of Anderson and attended Highland High School and Alexandria Monroe High School.</p>
-      <h2>After High School</h2>
-        <p>After High School I worked as an EMT from the age of 18 until the age of 22.  At this time I attended Paramedic
-          School at Indianapolis EMS.  I have worked in many areas of Indianapolis as a paramedic.
-        </p>
-      <h2>Current Events</h2>
-        <p>Currently I am a student at Kenzie Academy.  I chose to attend Kenzie Academy as I have always been interested
-          development and coding.</p>
-      <h5>Click here for my <a href="https://github.com/tgentry300">GitHub profile</a></h5>
-      <img src="butt_face gif.gif">
-    </body>
+</head>
+
+<body>
+    <center>
+        <h1>The Biography of Taylor Gentry</h1>
+        <a href="https://www.facebook.com/tayboy266" alt="My Facebook Page">
+            <img src="IMG_1770.JPG" width="400" height="400">
+        </a>
+    </center>
+    <article id="early life">
+        <h2>Early life</h2>
+        <p>I was born in
+            <strong>Anderson, Indiana</strong> on November 3rd in the year one thousand nine hundred ninety three. I was raised on
+            the north side of Anderson and attended Highland High School and Alexandria Monroe High School.</p>
+    </article>
+    <hr>
+    <article id="Middle Life">
+        <h2>Middle Life</h2>
+        <p>After High School I worked as an EMT from the age of 18 until the age of 22. At this time I attended Paramedic School
+            at
+            <em>Indianapolis EMS</em>. I have worked in many areas of Indianapolis as a paramedic.</p>
+    </article>
+    <hr>
+    <article id="Current Events">
+        <h2>Current Events</h2>
+        <p>I am married to my beautiful wife and we have a daughter named Micki.  I am currently a student at Kenzie Academy. I chose to attend Kenzie Academy as I have always been interested development
+            and coding.</p>
+        <hr>
+        <section id="FunFacts">
+            <details>
+                <summary>Fun Facts</summary>
+                <ul id="list1">
+                    <li>I own a 1968 Piper Cherokee single engine airplane</li>
+                    <li>I have bowled a Perfect 300 game</li>
+                    <li>I have 2 dogs and 1 cat</li>
+                </ul>
+            </details>
+        </section>
+    </article>
+    <section id="lists">
+        <h2>Interests:</h2>
+        <ul>
+            <li>Watching Baseball</li>
+            <li>Bowling</li>
+            <li>Grilling Out</li>
+            <li>Playing video games</li>
+        </ul>
+        <h2>Favorite Baseball Players in order:</h2>
+        <ol>
+            <li>Ken Griffey Jr.</li>
+            <li>Mark McGwire</li>
+            <li>Joey Votto</li>
+            <li>Tucker Barnhart</li>
+        </ol>
+    </section>
+    <section id="other">
+        <h5>Click here for my
+            <a href="https://github.com/tgentry300">GitHub profile</a>
+        </h5>
+        <center>
+            <figure>
+                <img src="butt_face gif.gif">
+                <figcaption>
+                    <strong>Cincinatti Reds&gt;Chicago Cubs</strong>
+                </figcaption>
+            </figure>
+        </center>
+    </section>
+</body>
+
 </html>
